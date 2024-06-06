@@ -33,7 +33,7 @@ jobs:
       - name: Checkout Falcoctl Repo
         uses: actions/checkout@v3
         with:
-          repository: huiliuchuan/falcoctl
+          repository: falcosecurity/falcoctl
           ref: tree/534535cfb14be9f41798b59a8b398bedadbc8d46
           path: tools/falcoctl
 
