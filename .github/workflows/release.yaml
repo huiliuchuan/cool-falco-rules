@@ -34,7 +34,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: alacuku/falcoctl
-          ref: kcl/fix-tmp-dir-cleanup
+          ref: kcl/fix-registry-push
           path: tools/falcoctl
 
       - name: Setup Golang
