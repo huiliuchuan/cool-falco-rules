@@ -25,7 +25,7 @@ jobs:
       OCI_REGISTRY: ghcr.io
 
       # OCI artifact will look like ghcr.io/user/custom-rules:main
-      OCI_ARTIFACT_NAME: custom-rules
+      OCI_ARTIFACT_NAME: cool-falco-rules
       OCI_ARTIFACT_VERSION: ${{ github.ref_name }}
 
     steps:
