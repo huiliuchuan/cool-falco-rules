@@ -33,8 +33,8 @@ jobs:
       - name: Checkout Falcoctl Repo
         uses: actions/checkout@v3
         with:
-          repository: alacuku/falcoctl
-          ref: kcl/extract-plugin-requirements
+          repository: huiliuchuan/falcoctl
+          ref: tree/534535cfb14be9f41798b59a8b398bedadbc8d46
           path: tools/falcoctl
 
       - name: Setup Golang
